@@ -1,5 +1,13 @@
+
+  main {
+    flex: 1 0 auto;
+  }
+
 body {
   background-color: blue;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column
 }
 
 .tile {

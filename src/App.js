@@ -4,6 +4,7 @@ import LandingPage from './components/LandingPage';
 import PortoflioPage from './components/PortfolioPage';
 import AboutPage from './components/AboutPage';
 import Navigation from './components/Navigation';
+import Footer from './components/Footer';
 // import logo from './logo.svg';
 import './App.css';
 
@@ -15,6 +16,7 @@ function App() {
         <Route exact path="/" component={LandingPage} />
         <Route path="/Portfolio" component={PortoflioPage} />
         <Route path="/About" component={AboutPage} />
+        <Footer />
       </Router>
     </div>
   );
