@@ -1,5 +1,22 @@
+html {
+  height: 100%;
+}
+
 body {
   background-color: blue;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.content {
+  flex: 1 0 auto;
+  padding: 20px;
+}
+
+.page-footer {
+  flex-shrink: 0;
+  padding: 20px;
 }
 
 .tile {
@@ -319,7 +336,7 @@ img.tile-flp__pnl {
 }
 
 .img-hover-zoom--colorize img {
-  transition: transform 1.7s, filter 1.2s, box-shadow 0.9s ease-in-out;
+  transition: transform 1.5s, filter 1.2s, box-shadow 0.9s ease-in-out;
   filter: grayscale(100%);
 }
 

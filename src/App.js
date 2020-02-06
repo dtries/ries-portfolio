@@ -16,6 +16,8 @@ function App() {
         <Route exact path="/" component={LandingPage} />
         <Route path="/Portfolio" component={PortoflioPage} />
         <Route path="/About" component={AboutPage} />
+        <div className="content">
+        </div>
         <Footer />
       </Router>
     </div>
