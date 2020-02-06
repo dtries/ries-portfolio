@@ -1,5 +1,4 @@
 import React, {Component} from "react";
-import M from "materialize-css";
 
 class LandingPage extends Component {
 
@@ -12,9 +11,9 @@ class LandingPage extends Component {
               </div>
             </div>
 
-            <div class="tile-pnl">
-                <div class="tile-pnl__cntnt img-hover-zoom image-hover-zoom--colorize">
-                    <img src={ require("../images/Which_Train_When.png")} alt=""/>
+            <div className="tile-pnl">
+                <div className="tile-pnl__cntnt img-hover-zoom--colorize">
+                <img src={ require("../images/Which_Train_When.png")} className="tile-pnl__cntnt img-hover-zoom--colorize" alt=""/>
                 </div>
             </div>
 
