@@ -30,7 +30,7 @@ class LandingPage extends Component {
                 </div>
               </div>
             </div>
-        </div>            
+        </div>  
         );
     }
 }

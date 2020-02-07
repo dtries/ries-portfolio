@@ -1,22 +1,12 @@
-html {
-  height: 100%;
-}
-
-body {
+.App {
   background-color: blue;
   display: flex;
+  min-height: 100vh;
   flex-direction: column;
-  height: 100vh;
 }
 
-.content {
+.Site-Content {
   flex: 1 0 auto;
-  padding: 20px;
-}
-
-.page-footer {
-  flex-shrink: 0;
-  padding: 20px;
 }
 
 .tile {
